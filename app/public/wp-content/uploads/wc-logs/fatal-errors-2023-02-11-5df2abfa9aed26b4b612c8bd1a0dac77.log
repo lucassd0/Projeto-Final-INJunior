@@ -1,0 +1,48 @@
+2023-02-11T15:21:31+00:00 CRITICAL syntax error, unexpected token "<<", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:22:31+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:23:32+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:25:33+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:26:42+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:27:42+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:28:42+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:28:47+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:29:19+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:29:28+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:29:42+00:00 CRITICAL syntax error, unexpected token "===", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 14
+
+2023-02-11T15:31:42+00:00 CRITICAL syntax error, unexpected token "<<", expecting end of file, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 77
+
+2023-02-11T20:33:31+00:00 CRITICAL Cannot redeclare new_loop_shop_per_page() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:164), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 170
+
+2023-02-11T20:33:33+00:00 CRITICAL Cannot redeclare new_loop_shop_per_page() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:164), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 170
+
+2023-02-11T20:36:00+00:00 CRITICAL Cannot redeclare new_loop_shop_per_page() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:163), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 169
+
+2023-02-11T23:18:23+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\single-product\related.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2138): wc_get_template('single-product/...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2100): woocommerce_related_products(Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): woocommerce_output_related_products('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\content-single-product.php(117): do_action('woocommerce_aft...')
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(785): require('C:\\Users\\racic\\...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\racic\\...', false)
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#13 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\single-product\related.php, na linha 59
+

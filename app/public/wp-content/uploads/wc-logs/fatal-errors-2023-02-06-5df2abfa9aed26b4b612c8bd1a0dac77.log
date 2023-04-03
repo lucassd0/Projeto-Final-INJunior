@@ -1,0 +1,96 @@
+2023-02-06T22:23:04+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T22:23:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T22:24:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_html() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T22:24:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_html() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T22:24:16+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:09:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:09:24+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:09:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:09:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_image() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:13:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:17:28+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_External::the_ID() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+
+2023-02-06T23:17:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_External::the_ID() in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:30
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 30
+

@@ -1,0 +1,164 @@
+2023-02-12T00:41:57+00:00 CRITICAL syntax error, unexpected token "<", expecting "elseif" or "else" or "endif", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\single-product\add-to-cart\simple.php, na linha 38
+
+2023-02-12T13:28:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T13:29:13+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T13:29:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T13:30:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T17:17:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T17:21:27+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T17:21:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T17:34:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cost() on null in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php:71
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#10 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#11 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\index.php(5): the_content()
+#12 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#13 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#14 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#15 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\woocommerce\checkout\form-checkout.php, na linha 71
+
+2023-02-12T23:37:37+00:00 CRITICAL syntax error, unexpected token ";", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\page-home.php, na linha 6
+

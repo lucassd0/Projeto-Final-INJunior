@@ -1,0 +1,212 @@
+2023-02-09T01:52:20+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php, na linha 91
+
+2023-02-09T01:52:50+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php:69), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php, na linha 88
+
+2023-02-09T01:53:11+00:00 CRITICAL Cannot redeclare comes_bebes_footer_config() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php:79), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php, na linha 91
+
+2023-02-09T01:53:36+00:00 CRITICAL Cannot redeclare comes_bebes_woocommerce_support() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php:71), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\functions.php, na linha 94
+
+2023-02-09T02:11:41+00:00 CRITICAL syntax error, unexpected token ";", expecting ")", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 138
+
+2023-02-09T02:11:44+00:00 CRITICAL syntax error, unexpected token ";", expecting ")", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 138
+
+2023-02-09T03:08:48+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php:7
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\woocommerce\archive-product.php(50): formatar_produto(false)
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#4 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php, na linha 7
+
+2023-02-09T03:46:09+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php:7
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\woocommerce\archive-product.php(52): formatar_produto(false)
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#4 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php, na linha 7
+
+2023-02-09T03:46:17+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php:7
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\woocommerce\archive-product.php(52): formatar_produto(false)
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#4 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php, na linha 7
+
+2023-02-09T03:46:31+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php:7
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\woocommerce\archive-product.php(52): formatar_produto(false)
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#4 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\includes\format-product.php, na linha 7
+
+2023-02-09T17:13:59+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:14:04+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:14:25+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:14:27+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:14:29+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php(145): get_footer()
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:19:22+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php(145): get_footer()
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:19:35+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:19:38+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:19:46+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:19:51+00:00 CRITICAL Uncaught Error: Undefined constant "php" in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php:59
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template.php(718): load_template('C:\\Users\\racic\\...', true, Array)
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\plugins\woocommerce\templates\single-product.php(60): get_footer('shop')
+#4 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\racic\\...')
+#5 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#6 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#7 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 59
+
+2023-02-09T17:20:06+00:00 CRITICAL syntax error, unexpected token "echo", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 60
+
+2023-02-09T17:20:08+00:00 CRITICAL syntax error, unexpected token "echo", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 60
+
+2023-02-09T17:20:21+00:00 CRITICAL syntax error, unexpected token "echo", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 60
+
+2023-02-09T17:32:44+00:00 CRITICAL syntax error, unexpected token "<", em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 91
+
+2023-02-09T17:33:26+00:00 CRITICAL Unmatched '}', em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 170
+
+2023-02-09T17:33:28+00:00 CRITICAL Unmatched '}', em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\footer.php, na linha 170
+
+2023-02-09T17:51:34+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:51:37+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:04+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:04+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:21+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:31+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:50+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:52+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:53+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:52:53+00:00 CRITICAL Cannot redeclare html5_after_setup_theme() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:72), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 91
+
+2023-02-09T17:53:12+00:00 CRITICAL Cannot redeclare comes_bebes_footer_config() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:86), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 94
+
+2023-02-09T17:53:20+00:00 CRITICAL Cannot redeclare comes_bebes_woocommerce_support() (previously declared in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php:78), em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\projeto-final-injunior\functions.php, na linha 97
+
+2023-02-09T18:55:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_External as array in C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php:73
+Stack trace:
+#0 C:\Users\racic\Local Sites\comesebebes\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\racic\Local Sites\comesebebes\app\public\wp-blog-header.php(19): require_once('C:\\Users\\racic\\...')
+#2 C:\Users\racic\Local Sites\comesebebes\app\public\index.php(17): require('C:\\Users\\racic\\...')
+#3 {main}
+  thrown, em C:\Users\racic\Local Sites\comesebebes\app\public\wp-content\themes\comes-bebes\page-home.php, na linha 73
+
